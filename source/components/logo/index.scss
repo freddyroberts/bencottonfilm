@@ -1,0 +1,15 @@
+.logo {
+	width: 16rem;
+}
+
+@tablet {
+	.logo {
+		// color: blue;
+	}
+}
+
+@desktop {
+	.logo {
+		// color: white;
+	}
+}

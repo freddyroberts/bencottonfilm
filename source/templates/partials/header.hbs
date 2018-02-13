@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{#if title}}{{ title }}{{else}}{{ name }}{{/if}}</title>
+        <meta name="description" content="{{ description }}">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="assets/images/icons/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="/assets/styles/style.min.css?v={{version}}" type="text/css"/>
+
+        {{#> head-block}}
+            {{!-- Custom <head> content per page could be added. --}}
+        {{/head-block}}
+    </head>
+    <body>
+        <main>
+			<header class="header" role="banner">
+				<div class="container">
+					<nav class="header__nav">
+						<ul class="header__nav-list">
+							<li class="header__nav-item"><a href="/">{{> logo}}</a></li>
+							<li class="header__nav-item"><a href="/work.html">Work</a></li>
+							<li class="header__nav-item"><a href="/contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>

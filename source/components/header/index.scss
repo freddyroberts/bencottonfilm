@@ -1,0 +1,24 @@
+.header {
+	padding: 3rem 0;
+	&__nav-list {
+		@include flexContainer($justify: space-between);
+
+		list-style: none;
+		max-width: 40rem;
+	}
+	&__nav-item {
+
+	}
+}
+
+@tablet {
+	.header {
+
+	}
+}
+
+@desktop {
+	.header {
+
+	}
+}
