@@ -1,18 +1,17 @@
 {{#> page}}
     {{#*inline "main"}}
         <div class="homepage">
-			<div class="video-stage-wrapper">
-				<div class="video-stage">
-					<video autoplay="" loop="" class="full-view__background-content" data-ref="heroVideo" data-src="" data-poster-src="" poster="https://lewis-rcgarkskyk9ln7qkrx.stackpathdns.com/uploads/hero-content/_heroVideoPoster/Homepage-Poster.jpg" src="assets/images/fall.mov"></video>
-			          {{!-- <iframe src="https://player.vimeo.com/video/255810750?autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;background=1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="video-bg"></iframe> --}}
-			    </div>
-			</div>
-			<div class="container">
-				<img class="homepage__logo" src="/assets/images/bc-white-logo.png" alt="Ben Cotton Film">
-				<h1 class="homepage__title">Let's create something together.</h1>
-				<a class="button homepage__button" href="/work.html">View Work</a>
-				<a class="button homepage__button" href="/contact.html">Contact</a>
-			</div>
+				<div class="full-view__container">
+					<div class="full-view__content">
+						<img class="homepage__logo" src="/assets/images/bc-white-logo.png" alt="Ben Cotton Film">
+						<h1 class="homepage__title">Let's create something together.</h1>
+						<a class="button homepage__button" href="/work.html">View Work</a>
+						<a class="button homepage__button" href="/contact.html">Contact</a>
+					</div>
+					{{!-- TODO: Set poster --}}
+					<video autoplay="" loop="" class="full-view__background-video" poster="" src="assets/images/fall.mov"></video>
+					<img class="mobileGIF" data-src="https://lewis-rcgarkskyk9ln7qkrx.stackpathdns.com/uploads/hero-content/Homepage-GIF.gif">
+				</div>
         </div>
     {{/inline}}
 {{/page}}

@@ -11,7 +11,7 @@ const log = require('../utils').log;
 log.heading('Compressing Images', 'blue');
 
 // Find all image paths
-glob.sync(paths.images + '/**/*.{jpg,jpeg,png,svg,gif}').forEach(file => {
+glob.sync(paths.images + '/**/*.{jpg,jpeg,png,svg,gif,mov}').forEach(file => {
 	let segments = file.split('/');
 	let destination = segments.slice(segments.indexOf('images') + 1);
 
