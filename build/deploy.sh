@@ -1,5 +1,10 @@
-git checkout gh-pages
-npm run build
-git add .
-git commit -am "publish"
-git push origin gh-pages
+git checkout production
+npm run build && npm run templates
+cp ./source/CNAME ./public
+cd public
+git init
+git add -A
+git commit -m 'publish'
+git push -f git@github.com:freddyroberts/bencottonfilm.git master:gh-pages
+cd ../
+npm run build && npm run templates
