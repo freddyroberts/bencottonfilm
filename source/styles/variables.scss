@@ -1,8 +1,20 @@
 // Override core variables or add custom values here
 // Default settings available at https://www.weepower.com/style/variables
 
-// $primary: red;
-
 @import "wee-core/styles/variables.scss";
+@import url('https://fonts.googleapis.com/css?family=Arvo');
 
-// Assign variables that need to reference default variables below
+// Base
+$rootFontSize: 62.5%;
+
+$baseColor: $darkestGray;
+$baseFont: 'Arvo', serif;
+$baseFontSize: 1.5rem;
+$baseFontWeight: normal;
+$baseLineHeight: 1em;
+$bodyBackground: $white;
+
+
+// Buttons
+$buttonFont: $baseFont;
+$buttonFontSize: $baseFontSize;
