@@ -1,4 +1,3 @@
-git checkout production
 npm run build && npm run templates
 git push -f git@github.com:freddyroberts/bencottonfilm.git master:develop
 cp ./source/CNAME ./public
