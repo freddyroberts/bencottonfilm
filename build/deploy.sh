@@ -8,4 +8,4 @@ git add -A
 git commit -m 'publish'
 git push -f git@github.com:freddyroberts/bencottonfilm.git master:gh-pages
 cd ../
-npm run build && npm run templates
+echo "THE DEPLOY IS COMPLETE"
