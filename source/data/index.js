@@ -56,6 +56,62 @@ module.exports = {
 			"description": "Fotograf",
 			"video": "https://www.youtube.com/watch?v=oUj0-yius8c",
 			"image": "assets/images/vasterbottonost.png"
+		},
+		{
+			"client": "Livet-blir-bättre",
+			"title": "Livet-blir-bättre",
+			"description": "Fotograf",
+			"video": "http://bencottonfilm.com/works/livet-blir-battre/",
+			"image": "assets/images/livet-blir-battre.png"
+		},
+		{
+			"client": "P4",
+			"title": "P4 - 40 År",
+			"description": "Fotograf",
+			"video": "https://www.youtube.com/watch?v=Zu1MzwxVUpk",
+			"image": "assets/images/p4.png"
+		},
+		{
+			"client": "Viafree",
+			"title": "Viafree - Påkostat",
+			"description": "Fotograf",
+			"video": "https://www.viafree.se/program/influencers-x-viafree/random-making-movies/sasong-1/875962",
+			"image": "assets/images/pakostat.png"
+		},
+		{
+			"client": "Sony",
+			"title": " Sony - No more Limits",
+			"description": "Fotograf och Redigera",
+			"video": "https://www.youtube.com/watch?v=JzKwZ2Nt1cQ",
+			"image": "assets/images/sony.png"
+		},
+		{
+			"client": "SANDVIK",
+			"title": "SANDVIK - MAN VS MACHINE ",
+			"description": "Fotograf",
+			"video": "https://www.youtube.com/watch?v=e_EdgMjY8Fo",
+			"image": "assets/images/sandvik.png"
+		},
+		{
+			"client": "Marabou",
+			"title": "Mmm… Mästarna S01",
+			"description": "Fotograf",
+			"video": "https://www.youtube.com/watch?v=1Xs4kEkKeWk",
+			"image": "assets/images/marabou-s1.png"
+		},
+		{
+			"client": "LIfesum",
+			"title": "LIfesum App - Demo",
+			"description": "Redigera",
+			"video": "https://vimeo.com/140842137",
+			"image": "assets/images/lifsum.png"
+		},
+		{
+			"client": "Josefin Cummings",
+			"title": "Josefin Cummings - Guldsmed",
+			"description": "Fotograf och Redigera",
+			"video": "https://vimeo.com/131964888",
+			"image": "assets/images/cummings.png"
 		}
 	]
 }
