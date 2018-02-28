@@ -83,7 +83,7 @@ module.exports = {
 			"title": " Sony - No more Limits",
 			"description": "Fotograf och Redigera",
 			"video": "https://www.youtube.com/watch?v=JzKwZ2Nt1cQ",
-			"image": "assets/images/sony.png"
+			"image": "assets/images/Sony.png"
 		},
 		{
 			"client": "SANDVIK",
