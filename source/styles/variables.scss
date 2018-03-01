@@ -6,6 +6,9 @@
 
 // Base
 $rootFontSize: 62.5%;
+$linkColor: #63AFDF;
+$linkColorHover: darken($linkColor, 6%);
+$linkColorActive: darken($linkColor, 6%);
 
 $baseColor: $darkestGray;
 $baseFont: 'Arvo', serif;

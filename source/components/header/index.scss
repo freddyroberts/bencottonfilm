@@ -1,10 +1,21 @@
 .header {
+	background-color: $darkerGray;
+	margin-bottom: 2rem;
 	padding: 3rem 0;
+	text-align: center;
+	&__logo {
+		display: inline-block;
+		margin-bottom: 2rem;
+		img {
+			margin-bottom: 0;
+			max-width: 30rem;
+		}
+	}
 	&__nav-list {
-		@include flexContainer($justify: space-between);
+		@include flexContainer($justify: space-evenly);
 
 		list-style: none;
-		max-width: 40rem;
+		max-width: 60rem;
 	}
 	&__nav-item {
 
@@ -13,12 +24,33 @@
 
 @tablet {
 	.header {
-
+		text-align: left;
+		.container {
+			display: flex;
+			justify-content: space-between;
+		}
+		&__logo,
+		&__nav {
+			margin-bottom: 0;
+			width: 50%;
+		}
+		&__nav-list {
+			justify-content: flex-end;
+			align-items: center;
+			height: 100%;
+		}
+		&__nav-item {
+			padding-left: 3rem;
+		}
 	}
 }
 
 @desktop {
 	.header {
-
+		&__logo {
+			img {
+				max-width: 35rem;
+			}
+		}
 	}
 }
