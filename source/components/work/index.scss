@@ -4,11 +4,13 @@
 	}
 	&__list-item {
 		@include column(1, 1);
+		box-shadow: 0 8px 14px 0 rgba($black, 0.4);
+		line-height: 0;
 		margin-bottom: 2rem;
 	}
 	&__item-link {
-		display: inline-block;
 		color: $white;
+		display: inline-block;
 		line-height: 0;
 		position: relative;
 		transition: color 0.3s ease;
