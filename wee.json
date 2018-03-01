@@ -1,6 +1,6 @@
 {
 	"paths": {
-		"root": "public",
+		"root": "docs",
 		"assets": "assets",
 		"source": "source",
 		"build": "build"

@@ -3,7 +3,7 @@ var handlebarsConfig = {
         'source/templates/pages/**/*.hbs'
     ],
     fileExtension: '.html',
-    dest: 'public',
+    dest: 'docs',
     ignorePartials: false,
     batch: ['source/templates/partials'],
     watch: [
