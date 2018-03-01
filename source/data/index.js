@@ -38,7 +38,7 @@ module.exports = {
 		},
 		{
 			"client": "Marabou",
-			"title": "Marabou - Mmm... Mästarna",
+			"title": "Marabou - Mmm... Mästarna S02",
 			"description": "Fotograf",
 			"video": "https://www.youtube.com/watch?time_continue=1&v=O9m0R4eFbhg",
 			"image": "assets/images/marabou.png"

@@ -14,23 +14,14 @@
 
 @tablet {
 	.contact {
-		@include flexContainer(row, wrap, $align: center);
 
-		&__image-wrapper {
-			margin: 0;
-			width: 50%;
-		}
-		&__list {
-			padding-left: 5rem;
-			width: 50%;
-		}
 	}
 }
 
 @desktop {
 	.contact {
 		&__list {
-			padding-left: 8rem;
+		
 		}
 	}
 }

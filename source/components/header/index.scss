@@ -1,7 +1,6 @@
 .header {
 	background-color: $darkestGray;
-	margin-bottom: 2rem;
-	padding: 3rem 0;
+	padding: 1rem 0;
 	text-align: center;
 	&__logo {
 		display: inline-block;
@@ -18,7 +17,10 @@
 		max-width: 60rem;
 	}
 	&__nav-item {
-
+		text-transform: uppercase;
+		a {
+			color: $white;
+		}
 	}
 }
 

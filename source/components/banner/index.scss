@@ -1,0 +1,35 @@
+.banner {
+	@include flexContainer($justify: center, $align: center);
+	background-image: url('/assets/images/bc-work-banner.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 20rem;
+	margin-bottom: 2rem;
+	position: relative;
+	width: 100%;
+	&.-contact {
+		background-image: url('/assets/images/bc-contact-banner.png');
+		height: 25rem;
+	}
+	&::before {
+		@include absolute(-1px,0,0,0);
+		background-color: $black;
+		content: '';
+		opacity: 0.5;
+	}
+	&__heading {
+		color: $white;
+		margin-bottom: 0;
+		position: relative;
+	}
+}
+
+@desktop {
+	.banner {
+		height: 40rem;
+		&.-contact {
+			background-image: url('/assets/images/bc-contact-banner.png');
+			height: 45rem;
+		}
+	}
+}
