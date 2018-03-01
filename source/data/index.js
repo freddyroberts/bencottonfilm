@@ -61,7 +61,7 @@ module.exports = {
 			"client": "Livet-blir-bättre",
 			"title": "Livet-blir-bättre",
 			"description": "Fotograf",
-			"video": "http://bencottonfilm.com/works/livet-blir-battre/",
+			"video": "https://www.facebook.com/andreasjonsson.nu/videos/1436397879787168/",
 			"image": "assets/images/livet-blir-battre.png"
 		},
 		{
