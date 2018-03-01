@@ -38,7 +38,15 @@
 		padding: 6% 0;
 		z-index: 999;
 	}
+	.full-view__gif {
+		max-width: none;
+		min-height: 100vh;
+		min-width: 100vw;
+		position: fixed;
+		min-height: 100vh;
+	}
 	.full-view__background-video {
+		display: none;
 		height: auto;
 		left: 50%;
 		max-width: none;
@@ -65,6 +73,17 @@
 		transition: all 0.3s ease;
 		&:hover {
 			background-color: rgba($black, 0.6);
+		}
+	}
+}
+
+@tablet {
+	.homepage {
+		.full-view__gif {
+			display: none;
+		}
+		.full-view__background-video {
+			display: block;
 		}
 	}
 }
