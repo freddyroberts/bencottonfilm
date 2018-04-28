@@ -9,6 +9,27 @@ module.exports = {
     "production": (process.env.NODE_ENV === "production"),
 	"videos": [
 		{
+			"client": "Welcome App",
+			"title": "Welcome App",
+			"description": "Producer",
+			"video": "https://www.youtube.com/watch?v=mKjfUIyBEGw&t=2s",
+			"image": "assets/images/welcome.png"
+		},
+		{
+			"client": "ACO - Yommercial",
+			"title": "ACO - Yommercial ",
+			"description": "Producer",
+			"video": "https://vimeo.com/266306655",
+			"image": "assets/images/aco.png"
+		},
+		{
+			"client": "Nord",
+			"title": "Nord Electro 6 - Product video",
+			"description": "Fotograf & Editor",
+			"video": "https://www.youtube.com/watch?v=h0_2jLLHUhA&t=3s",
+			"image": "assets/images/nord-2x.png"
+		},
+		{
 			"client": "Maclaren Barbers",
 			"title": "Maclaren Barbers - Reklam",
 			"description": "Fotograf",
