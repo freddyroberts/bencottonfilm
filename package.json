@@ -65,7 +65,7 @@
     "eslint-plugin-import": "^2.2.0",
     "fs-extra": "^4.0.1",
     "glob": "^7.1.1",
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-htmlmin": "^3.0.0",
     "gulp-plumber": "^1.0.1",

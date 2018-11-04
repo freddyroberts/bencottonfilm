@@ -9,18 +9,60 @@ module.exports = {
     "production": (process.env.NODE_ENV === "production"),
 	"videos": [
 		{
-			"client": "Welcome App",
-			"title": "Welcome App",
-			"description": "Producer",
-			"video": "https://www.youtube.com/watch?v=mKjfUIyBEGw&t=2s",
-			"image": "assets/images/welcome.png"
+			"client": 'MISS LI OCH BLOSSA',
+			"title": 'VINTERTID',
+			"description": 'DP',
+			"video": 'https://www.youtube.com/watch?v=inmppefGh-8',
+			"image": "assets/images/misslixblossa2x.png"
 		},
+		{
+			"client": 'Jamkid',
+			"title": 'Jamkid - Ser Dig (Officiell Video)',
+			"description": 'DP & Colorist',
+			"video": 'https://m.youtube.com/watch?v=SIsjnIJqkHw',
+			"image": "assets/images/jamkid2x.png"
+		},
+		// {
+		// 	"client": 'Gute Rosteri',
+		// 	"title": 'Gute Rosteri',
+		// 	"description": 'Producer & Editor',
+		// 	"video": 'https://youtu.be/dQ4QxIjMsNE',
+		// 	"image": "assets/images/welcome.png"
+		// },
+		// {
+		// 	"client": 'CCM',
+		// 	"title": 'CCM',
+		// 	"description": 'Producer',
+		// 	"video": 'https://youtu.be/I6DxaNPopPs',
+		// 	"image": "assets/images/welcome.png"
+		// },
+		// {
+		// 	"client": 'CS:GO wonderchild Ludvig "Brollan” Brolin',
+		// 	"title": 'CS:GO wonderchild Ludvig "Brollan” Brolin',
+		// 	"description": 'Cinematographer',
+		// 	"video": 'https://www.youtube.com/watch?v=qFecoDPeLAc',
+		// 	"image": "assets/images/welcome.png"
+		// },
+		// {
+		// 	"client": "Sveriges Läkarförbund",
+		// 	"title": "Sveriges Läkarförbund",
+		// 	"description": "Editor & Cinematographer",
+		// 	"video": "https://www.youtube.com/watch?v=-3IWEBie3Wo",
+		// 	"image": "assets/images/welcome.png"
+		// },
 		{
 			"client": "ACO - Yommercial",
 			"title": "ACO - Yommercial ",
 			"description": "Producer",
 			"video": "https://vimeo.com/266306655",
 			"image": "assets/images/aco.png"
+		},
+		{
+			"client": "Welcome App",
+			"title": "Welcome App",
+			"description": "Producer",
+			"video": "https://www.youtube.com/watch?v=mKjfUIyBEGw&t=2s",
+			"image": "assets/images/welcome.png"
 		},
 		{
 			"client": "Nord",
