@@ -9,6 +9,27 @@ module.exports = {
     "production": (process.env.NODE_ENV === "production"),
 	"videos": [
 		{
+			"client": 'SONY MUSIC SWEDEN',
+			"title": 'MADI BANJA - Primadonna',
+			"description": 'DP',
+			"video": 'https://www.youtube.com/watch?v=Huv-7TdjcI4',
+			"image": "assets/images/madi.png"
+		},
+		{
+			"client": 'Städa Sverige',
+			"title": 'Ungdomar',
+			"description": 'DP',
+			"video": 'https://vimeo.com/329404001',
+			"image": "assets/images/stada.png"
+		},
+		{
+			"client": 'Ideal Sweden',
+			"title": 'novalanalove  Campaign',
+			"description": 'DP',
+			"video": 'https://vimeo.com/331979111',
+			"image": "assets/images/nova.png"
+		},
+		{
 			"client": 'MISS LI OCH BLOSSA',
 			"title": 'VINTERTID',
 			"description": 'DP',
