@@ -9,6 +9,34 @@ module.exports = {
     "production": (process.env.NODE_ENV === "production"),
 	"videos": [
 		{
+			"client": 'Dreamhack Masters',
+			"title": 'Dreamhack Masters',
+			"description": 'DP',
+			"video": 'https://vimeo.com/378005673',
+			"image": "assets/images/DreamhackMasters.png"
+		},
+		{
+			"client": 'Jusek',
+			"title": 'Hopp-park',
+			"description": 'DP',
+			"video": 'https://vimeo.com/377768657',
+			"image": "assets/images/Hopp-park.png"
+		},
+		{
+			"client": 'Jusek',
+			"title": 'Simhall',
+			"description": 'DP',
+			"video": 'https://vimeo.com/377768689',
+			"image": "assets/images/Simhall.png"
+		},
+		{
+			"client": 'SONY MUSIC SWEDEN',
+			"title": 'Lamix feat. Mwuana - Piruett',
+			"description": 'DP',
+			"video": 'https://vimeo.com/377764212',
+			"image": "assets/images/Lamix.png"
+		},
+		{
 			"client": 'SONY MUSIC SWEDEN',
 			"title": 'MADI BANJA - Primadonna',
 			"description": 'DP',
