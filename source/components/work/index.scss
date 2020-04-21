@@ -4,43 +4,58 @@
 		grid-gap: 2rem;
 		list-style: none;
 	}
+
 	&__list-item {
 		box-shadow: 0 8px 14px 0 rgba($black, 0.4);
 		line-height: 0;
 	}
+
 	&__item-link {
+		@include size(100%, 23rem);
+
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: $white;
 		display: inline-block;
 		line-height: 0;
 		position: relative;
 		transition: color 0.3s ease;
+
 		&::before {
 			@include absolute(0,0,0,0);
+
 			background-color: $black;
 			content: '';
-			opacity: 0.5;
+			opacity: 0.2;
 		}
+
 		&:hover {
 			color: $white;
+
 			.work__title,
 			.work__description {
 				color: $white;
 			}
 		}
 	}
+
 	&__item-image {
 		margin-bottom: 0;
 		width: 100%;
 	}
+
 	&__title {
 		@include absolute($top: 50%);
+
 		font-size: 2rem;
 		text-align: center;
 		transition: opacity 0.2s ease;
 		width: 100%;
 	}
+
 	&__description {
 		@include absolute($bottom: 0%, $right: 0);
+
 		background: $darkestGray;
 		font-size: 1.2rem;
 		padding: 1.5rem;
@@ -53,14 +68,19 @@
 		&__heading {
 			width: 100%;
 		}
+
 		&__list {
 			grid-template-columns: 1fr 1fr;
 		}
+
 		&__item-link {
 			position: relative;
+
 			&::before {
 				transition: opacity 0.2s ease;
+				opacity: 0.5;
 			}
+
 			&:hover {
 				&::before,
 				.work__title  {

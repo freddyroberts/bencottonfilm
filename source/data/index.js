@@ -9,6 +9,13 @@ module.exports = {
     "production": (process.env.NODE_ENV === "production"),
 	"videos": [
 		{
+			"client": 'EstherVallee TimesUp',
+			"title": 'EstherVallee TimesUp',
+			"description": 'DP',
+			"video": 'https://vimeo.com/404709842',
+			"image": "assets/images/times-up.jpeg"
+		},
+		{
 			"client": 'Dreamhack Masters',
 			"title": 'Dreamhack Masters',
 			"description": 'DP',
