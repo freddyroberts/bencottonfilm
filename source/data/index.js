@@ -78,34 +78,6 @@ module.exports = {
 			"video": 'https://m.youtube.com/watch?v=SIsjnIJqkHw',
 			"image": "assets/images/jamkid2x.png"
 		},
-		// {
-		// 	"client": 'Gute Rosteri',
-		// 	"title": 'Gute Rosteri',
-		// 	"description": 'Producer & Editor',
-		// 	"video": 'https://youtu.be/dQ4QxIjMsNE',
-		// 	"image": "assets/images/welcome.png"
-		// },
-		// {
-		// 	"client": 'CCM',
-		// 	"title": 'CCM',
-		// 	"description": 'Producer',
-		// 	"video": 'https://youtu.be/I6DxaNPopPs',
-		// 	"image": "assets/images/welcome.png"
-		// },
-		// {
-		// 	"client": 'CS:GO wonderchild Ludvig "Brollan” Brolin',
-		// 	"title": 'CS:GO wonderchild Ludvig "Brollan” Brolin',
-		// 	"description": 'Cinematographer',
-		// 	"video": 'https://www.youtube.com/watch?v=qFecoDPeLAc',
-		// 	"image": "assets/images/welcome.png"
-		// },
-		// {
-		// 	"client": "Sveriges Läkarförbund",
-		// 	"title": "Sveriges Läkarförbund",
-		// 	"description": "Editor & Cinematographer",
-		// 	"video": "https://www.youtube.com/watch?v=-3IWEBie3Wo",
-		// 	"image": "assets/images/welcome.png"
-		// },
 		{
 			"client": "ACO - Yommercial",
 			"title": "ACO - Yommercial ",
@@ -149,41 +121,6 @@ module.exports = {
 			"image": "assets/images/nord.png"
 		},
 		{
-			"client": "Intersport",
-			"title": "Intersports - Fotbollstuben",
-			"description": "Fotograf",
-			"video": "https://www.youtube.com/watch?v=H6Mf_h8DDUQ",
-			"image": "assets/images/intersport.png"
-		},
-		{
-			"client": "Marabou",
-			"title": "Marabou - Mmm... Mästarna S02",
-			"description": "Fotograf",
-			"video": "https://www.youtube.com/watch?time_continue=1&v=O9m0R4eFbhg",
-			"image": "assets/images/marabou.png"
-		},
-		{
-			"client": "Sportswik",
-			"title": "Sportswik - TV4 Commericial",
-			"description": "Fotograf och Edit",
-			"video": "https://www.youtube.com/watch?v=gbKLJu714QQ",
-			"image": "assets/images/sportswik.png"
-		},
-		{
-			"client": "Västerbotten",
-			"title": "Västerbotten’s Ost med Lisa Lemke",
-			"description": "Fotograf",
-			"video": "https://www.youtube.com/watch?v=oUj0-yius8c",
-			"image": "assets/images/vasterbottonost.png"
-		},
-		{
-			"client": "Livet-blir-bättre",
-			"title": "Livet-blir-bättre",
-			"description": "Fotograf",
-			"video": "https://www.facebook.com/andreasjonsson.nu/videos/1436397879787168/",
-			"image": "assets/images/livet-blir-battre.png"
-		},
-		{
 			"client": "P4",
 			"title": "P4 - 40 År",
 			"description": "Fotograf",
@@ -191,39 +128,11 @@ module.exports = {
 			"image": "assets/images/p4.png"
 		},
 		{
-			"client": "Viafree",
-			"title": "Viafree - Påkostat",
-			"description": "Fotograf",
-			"video": "https://www.viafree.se/program/influencers-x-viafree/random-making-movies/sasong-1/875962",
-			"image": "assets/images/pakostat.png"
-		},
-		{
 			"client": "Sony",
 			"title": " Sony - No more Limits",
 			"description": "Fotograf och Redigera",
 			"video": "https://www.youtube.com/watch?v=JzKwZ2Nt1cQ",
 			"image": "assets/images/sony.png"
-		},
-		{
-			"client": "SANDVIK",
-			"title": "SANDVIK - MAN VS MACHINE ",
-			"description": "Fotograf",
-			"video": "https://www.youtube.com/watch?v=e_EdgMjY8Fo",
-			"image": "assets/images/sandvik.png"
-		},
-		{
-			"client": "Marabou",
-			"title": "Mmm… Mästarna S01",
-			"description": "Fotograf",
-			"video": "https://www.youtube.com/watch?v=1Xs4kEkKeWk",
-			"image": "assets/images/marabou-s1.png"
-		},
-		{
-			"client": "LIfesum",
-			"title": "LIfesum App - Demo",
-			"description": "Redigera",
-			"video": "https://vimeo.com/140842137",
-			"image": "assets/images/lifsum.png"
 		},
 		{
 			"client": "Josefin Cummings",
