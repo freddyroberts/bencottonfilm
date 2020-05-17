@@ -2,12 +2,40 @@ var package = require('./../../package.json');
 
 module.exports = {
     "_comment": "",
-    "name": "Ben Cotton Film",
+    "name": "Team Cotton",
     "description": "Benjamin Cotton | DP/EDITOR/PRODUCER",
     "version": package.version || "",
     "environment": process.env.NODE_ENV || "development",
     "production": (process.env.NODE_ENV === "production"),
 	"videos": [
+		{
+			"client": 'Gute Rosteri',
+			"title": '',
+			"description": 'Director',
+			"video": 'https://vimeo.com/417617010',
+			"image": "assets/images/gute.png"
+		},
+		{
+			"client": 'Transportföretagen',
+			"title": '',
+			"description": 'DP/Editor',
+			"video": 'https://vimeo.com/413769787',
+			"image": "assets/images/transportforetagen.png"
+		},
+		{
+			"client": 'Petter & Thomas Stenströme',
+			"title": 'Du får mig aldrig levande',
+			"description": 'DP',
+			"video": 'https://vimeo.com/416057223',
+			"image": "assets/images/stenstrom.png"
+		},
+		{
+			"client": 'Visit Sweden',
+			"title": 'The Weekend',
+			"description": 'DP',
+			"video": 'https://vimeo.com/377767595',
+			"image": "assets/images/visit-sweden.png"
+		},
 		{
 			"client": 'EstherVallee TimesUp',
 			"title": 'EstherVallee TimesUp',
