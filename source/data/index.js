@@ -9,8 +9,15 @@ module.exports = {
     "production": (process.env.NODE_ENV === "production"),
 	"videos": [
 		{
+			"client": 'Trine',
+			"title": 'Trine',
+			"description": 'DP',
+			"video": 'https://vimeo.com/397292907/1203b42dc9',
+			"image": "assets/images/trine.png"
+		},
+		{
 			"client": 'Gute Rosteri',
-			"title": '',
+			"title": 'Gute Rosteri',
 			"description": 'Director',
 			"video": 'https://vimeo.com/417617010',
 			"image": "assets/images/gute.png"
@@ -24,7 +31,7 @@ module.exports = {
 		},
 		{
 			"client": 'Transportföretagen',
-			"title": '',
+			"title": 'Transportföretagen',
 			"description": 'DP/Editor',
 			"video": 'https://vimeo.com/413769787',
 			"image": "assets/images/transportforetagen.png"
