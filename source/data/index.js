@@ -16,6 +16,13 @@ module.exports = {
 			"image": "assets/images/gute.png"
 		},
 		{
+			"client": 'Visit Sweden',
+			"title": 'The Weekend',
+			"description": 'DP',
+			"video": 'https://vimeo.com/377767595',
+			"image": "assets/images/visit-sweden.png"
+		},
+		{
 			"client": 'Transportföretagen',
 			"title": '',
 			"description": 'DP/Editor',
@@ -28,13 +35,6 @@ module.exports = {
 			"description": 'DP',
 			"video": 'https://vimeo.com/416057223',
 			"image": "assets/images/stenstrom.png"
-		},
-		{
-			"client": 'Visit Sweden',
-			"title": 'The Weekend',
-			"description": 'DP',
-			"video": 'https://vimeo.com/377767595',
-			"image": "assets/images/visit-sweden.png"
 		},
 		{
 			"client": 'EstherVallee TimesUp',
