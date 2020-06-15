@@ -1,8 +1,6 @@
 {{#> page}}
     {{#*inline "main"}}
-		{{!-- <div class="banner">
-			<h1 class="banner__heading">Work</h1>
-		</div> --}}
+		<h1>Music Videos</h1>
 		<section class="container video">
 			<div class="column-left">
 				<h2>{{ videos.[0].title }}</h2>
@@ -13,8 +11,8 @@
 					<li>LOS ANGELES, CA</li>
 				</ul>
 			</div>
-			<div class="column-right">
-				<iframe src="https://player.vimeo.com/video/76979871" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+			<div class="column-left">
+				<iframe src="{{ this.video }}" frameborder="0"></iframe>
 			</div>
 		</section>
         <section class="container work">
